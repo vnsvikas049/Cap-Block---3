@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    section {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 15px;
+      width: 250px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #1a73e8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+
+  <div class="gallery">
+
+    <section>
+      <img src="https://th.bing.com/th/id/R.be080585c0da64067404b23530a814ce?rik=vjGDbB2xFyn9Sw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f03%2f10%2f318375-nature-landscape-lake-mountain-forest-wildflowers-spring-pine_trees-path-Switzerland-HDR.jpg&ehk=W21nAe%2fQYSWkLQF83VxX2RflaJ7eKm%2fm0J4pW85PpjU%3d&risl=&pid=ImgRaw&r=0" alt="Beautiful Nature Landscape">
+      <a href="https://en.wikipedia.org/wiki/Nature" target="_blank">Learn about Nature</a>
+    </section>
+
+    <section>
+      <img src="https://tse4.mm.bing.net/th/id/OIP.4AGtg0r6yiu75AXpES5czgHaEo?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Outer Space with Stars">
+      <a href="https://www.nasa.gov/" target="_blank">Explore NASA</a>
+    </section>
+
+    <section>
+      <img src="https://img.freepik.com/premium-photo/modern-electronic-static-collection-system-futuristic-gadgets-showcases-lineup-sleek-modern-technological-devices_812236-1817.jpg?w=2000" alt="Modern Technology Devices">
+      <a href="https://www.techradar.com/" target="_blank">Visit TechRadar</a>
+    </section>
+
+  </div>
+
+</body>
+</html>
